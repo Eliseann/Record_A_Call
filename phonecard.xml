@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+<Gather action="phonecard.php" method="GET" finishOnKey="#">
+<Say voice="woman" language="en-gb">
+Please enter the area code and phone number you would like to connect to, followed by the pound sign.
+</Say>
+</Gather>
+<Say>We didn't receive any input. Goodbye!</Say>
+</Response>
